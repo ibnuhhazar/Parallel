@@ -1,0 +1,208 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: aditya.qa14@gmail.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1651059,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.setUP()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Adding Two Numbers",
+        "description": "",
+        "id": "adding-numbers;adding-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 136228,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.Akhiran()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130086080,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195011,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10000566837,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User add this two number",
+            "match": {
+              "location": "AddNumberStepDef.user_add_this_two_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263591,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Print the sum",
+            "match": {
+              "location": "AddNumberStepDef.print_the_sum()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@AddTwo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174017,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Adding Three Numbers",
+        "description": "",
+        "id": "adding-numbers;adding-three-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 216938,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.Akhiran()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 202009,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 770711,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238398,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the third number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_third_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77911,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User add this three number",
+            "match": {
+              "location": "AddNumberStepDef.user_add_this_three_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 290649,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Print the sum",
+            "match": {
+              "location": "AddNumberStepDef.print_the_sum()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@AddThree"
+          }
+        ]
+      }
+    ],
+    "name": "Adding numbers",
+    "description": "",
+    "id": "adding-numbers",
+    "keyword": "Feature",
+    "uri": "C:/Cucumber-AutoGenerate-Runner-master/src/test/resources/features/AddNumber.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@AddNumbers"
+      }
+    ]
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: aditya.qa14@gmail.com"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1651525,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.setUP()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Multiplying Two Numbers",
+        "description": "",
+        "id": "multiplying-numbers;multiplying-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 101704,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.Akhiran()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 129345226,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 152090,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35923,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User multiply this two number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_multiply_this_two_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 171218,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Print the multiplication",
+            "match": {
+              "location": "MultiplyNumberStepDef.print_the_mulitply()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@MultiplyTwo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 152090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.setUP()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Multiplying Three Numbers",
+        "description": "",
+        "id": "multiplying-numbers;multiplying-three-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 109169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddNumberStepDef.Akhiran()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59250,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter the first number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_first_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124098,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter the second number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_second_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82576,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter the third number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_enter_the_third_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25193,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User multiply this three number",
+            "match": {
+              "location": "MultiplyNumberStepDef.user_multiply_this_three_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 148357,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Print the multiplication",
+            "match": {
+              "location": "MultiplyNumberStepDef.print_the_mulitply()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@MultiplyThree"
+          }
+        ]
+      }
+    ],
+    "name": "Multiplying numbers",
+    "description": "",
+    "id": "multiplying-numbers",
+    "keyword": "Feature",
+    "uri": "C:/Cucumber-AutoGenerate-Runner-master/src/test/resources/features/MultiplyNumbers.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@MultiplyNumbers"
+      }
+    ]
+  }
+]
